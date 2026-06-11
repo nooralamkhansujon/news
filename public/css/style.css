@@ -1,0 +1,47 @@
+.news-paper-pages-container{
+    background: #dfdfdf;
+    padding: 5px;
+}
+
+.news-paper-pages-container h3{
+    text-align: center;
+}
+
+.news-paper-pages{
+    padding: 3px;
+    background: #b0b0b0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.news-paper-pages p{
+    margin: 0;
+}
+
+.news-paper-date-container{
+    display: flex;
+    padding: 5px;
+    background: #dfdfdf;
+    margin: 20px 0;
+    border: 1px solid #dfdfdf;
+}
+
+.news-paper-date-container h3{
+    margin-right: 10px;
+}
+
+
+a, a:hover, a:focus {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color: #1c1c1c;
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282; 
+}
+
+a:hover {
+    color: #aa0000;
+}
