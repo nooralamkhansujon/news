@@ -9,8 +9,6 @@
 
 define('LARAVEL_START', microtime(true));
 
-require __DIR__.'/../bootstrap/php-compat.php';
-
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
